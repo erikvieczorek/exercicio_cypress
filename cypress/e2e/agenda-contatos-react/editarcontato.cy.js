@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 describe('Teste para editar um contato na agenda', () => {
-    it('Deve incluir um novo contato', () => {
+    it('Deve alterar um contato', () => {
         cy.visit('https://agenda-contatos-react.vercel.app/')
         cy.get('.sc-beqWaB.eQdhbg.contato').should('exist')
 
